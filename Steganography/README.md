@@ -2,10 +2,10 @@
 
 My "To do" list for steganography
 
-### Search string something with strings.
+### Search strings with strings.
     strings example.jpg
 
-### Search files in image.
+### Search files with binwalk
     xxd example.jpg
 > If there is something strange after FF D9(JPG end bytes), so we can use binwalk to extract hidden files.
     
