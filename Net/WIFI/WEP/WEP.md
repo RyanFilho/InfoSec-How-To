@@ -9,7 +9,7 @@ This is a simple file for remind me some wpa2 cracking instructions.
 	sudo airodump-ng <monitor>
 
 ### Pegar pacotes
-	sudo airodump-ng <monitor> -c <canal> --bssid <bssid> -w <nomedoarquivo>
+	sudo airodump-ng <monitor> -c <channel> --bssid <bssid> -w <filename>
 
 ### Injetar mac
 	aireplay-ng -1 10 -a <bssid-ap> <monitor>
@@ -17,7 +17,7 @@ This is a simple file for remind me some wpa2 cracking instructions.
 Lembre de pegar o mac injetado
 
 ### Replicar requests de ARP para pegar mais IVs
-    aireplay-ng -3 -b <bssid do ap> -h <nssid injetado> <mon>
+    aireplay-ng -3 -b <ap bssid> -h <nssid injetado> <monitor>
 
 ### Bruteforce no .cap
-    aireplay-ng -a 1 -b <bssid do ap> <.cap>
+    aireplay-ng -a 1 -b <ap bssid> <.cap>
