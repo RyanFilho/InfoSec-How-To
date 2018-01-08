@@ -2,7 +2,7 @@
 
 My "To do" list for steganography
 
-### Search strings with strings.
+### Search strings with strings (LoL).
     strings example.jpg
 
 ### Search files with binwalk
